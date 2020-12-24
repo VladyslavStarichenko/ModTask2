@@ -19,7 +19,7 @@ public class Task2 {
         Scanner scanner = new Scanner(System.in);
         String position =  scanner.nextLine();
         String positionTo =  scanner.nextLine();
-        getCoords(positionTo,chessBoard, positionTo, coord);
+        getCoords(positionTo,chessBoard, position, coord);
         int x = coord[0];
         int y = coord[1];
         int x1 = coord[2];
